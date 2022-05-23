@@ -1,0 +1,3 @@
+com\cn\cloud\consul\controller\OrderConsulController.class
+com\cn\cloud\consul\OrderConsulMain8888.class
+com\cn\cloud\consul\config\ApplicationContextConfig.class

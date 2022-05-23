@@ -1,0 +1,4 @@
+com\cn\cloud\controller\OrderHystirxController.class
+com\cn\cloud\service\PaymentFallbackService.class
+com\cn\cloud\OrderHystrixMain9000.class
+com\cn\cloud\service\PaymentHystrixService.class

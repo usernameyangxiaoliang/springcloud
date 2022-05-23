@@ -1,0 +1,3 @@
+spring:
+  artemis:
+    port: 1001

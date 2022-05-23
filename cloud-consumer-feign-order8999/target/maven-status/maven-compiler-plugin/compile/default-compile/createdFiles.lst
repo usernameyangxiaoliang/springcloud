@@ -1,0 +1,4 @@
+com\cn\cloud\config\FeignConfig.class
+com\cn\cloud\OrderFeignMain8999.class
+com\cn\cloud\controller\OrderFeignController.class
+com\cn\cloud\service\PaymentFeignService.class
