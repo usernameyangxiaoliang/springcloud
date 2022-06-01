@@ -70,4 +70,10 @@ public class PaymentController {
         }
         return serverPort;
     }
+
+    @RequestMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        log.info("I am is paymentZipkin");
+        return "I am is paymentZipkin";
+    }
 }

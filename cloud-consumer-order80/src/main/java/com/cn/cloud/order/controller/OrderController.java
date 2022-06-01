@@ -59,4 +59,11 @@ public class OrderController {
         return restTemplate.getForObject(uri+"/payment/lb", String.class);
     }
 
+    //使用自定义的负载均衡轮询
+    @RequestMapping("/consumer/payment/zipkin")
+    public String paymentZipkin(){
+        String forObject = restTemplate.getForObject("http://localhost:8001/payment/zipkin", String.class);
+        return forObject;
+    }
+
 }
